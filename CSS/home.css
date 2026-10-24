@@ -127,7 +127,6 @@ main > div {
 .all-clubs,
 .all-events {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     margin: 20px 0;
@@ -141,9 +140,14 @@ main > div {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
+.all-clubs img,
+.all-events img{
+       height:250px;
+}
 
 .all-clubs h3,
 .all-events h3 {
+    height:50px;
     margin-bottom: 10px;
 }
 
@@ -154,7 +158,6 @@ main > div {
 
 .all-features {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
@@ -194,13 +197,11 @@ main > div {
      rgba(0, 0, 0, 0.55)), url("../Images/feature-4.jpg");
 }
 
-/* ---------- About ---------- */
+/*  About  */
 #about {
     margin:80px 0px;
     text-align: center;
 }
-
-
 
 /* Contact form  */
 #contact {
