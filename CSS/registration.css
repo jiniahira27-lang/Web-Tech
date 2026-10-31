@@ -1,4 +1,4 @@
-/* ---------- Base ---------- */
+/*  Base */
 * {
     box-sizing: border-box;
 }
@@ -51,7 +51,12 @@ form {
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 }
-
+form p {
+    color: red;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
 fieldset {
     margin-bottom: 20px;
     padding: 20px;
